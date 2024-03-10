@@ -1,0 +1,88 @@
+.home{
+    background-image: url("../banner.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* ===================navbar================ */
+.bg-body-tertiary{
+    background-color: #1E202B !important;
+    color: white;
+}
+.nav-item a{
+    color: white;
+transition: all .3s;
+}
+
+
+.nav-item a:hover{
+    color: #109AD8;
+
+    border: #109AD8 1px solid;
+    /* border-radius: 50%; */
+}
+
+.part-one i{
+    color: #109AD8;
+}
+.part-one{
+    color: white;
+}
+/* ===================navbar================ */
+/*====================== location====================== */
+#button-addon2{
+    background-color: #109AD8;
+    color: white;
+    border-radius: 20%;
+}
+
+
+.input-group>.form-control{
+    background-color: #1E202B;
+
+    color: white;
+}
+.input-group>.form-control::placeholder{
+    color: #767676;
+}
+/*====================== location====================== */
+
+.text-bg-light{
+background-color: #323544 !important;
+color: white !important;
+}
+
+
+
+
+.about-end{
+    background-color: #1E202B;
+}
+
+#email{
+    color: white;
+
+}
+
+span{
+    width:50px ;
+    height:50px ;
+    
+    background-color: #323544;
+    border-radius: 50%;
+    transition: all .3s;
+} 
+span i{
+    color: #109AD8;
+    transition: all .3s;
+}
+
+span:hover{
+    background-color: #109AD8;
+ 
+}
+span i:hover{
+    color: white;
+}
